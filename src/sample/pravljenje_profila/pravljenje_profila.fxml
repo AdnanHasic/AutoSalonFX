@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pravljenje_profila.PravljenjeProfilaController">
+   <children>
+      <Label fx:id="labelIme" text="Ime" />
+      <TextField fx:id="textFieldIme" maxWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Label fx:id="labelPrezime" text="Prezime">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="textFieldPrezime" maxWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Label fx:id="labelEmail" text="Email" />
+      <TextField fx:id="textFieldEmail" maxWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Label fx:id="labelUsername" text="Username" />
+      <TextField fx:id="textFieldUsername" maxWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Label fx:id="LabelPassword" text="Password" />
+      <TextField fx:id="textFieldPassword" maxWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Label fx:id="LabelPonoviPassword" text="Ponovi password" />
+      <TextField fx:id="textFieldPonoviPassword" maxWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Button mnemonicParsing="false" onAction="#klikNaNapraviProfil" text="Napravi profil">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#nazadNaLogin" text="NazadNaLogin">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
